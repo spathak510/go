@@ -1,0 +1,200 @@
+{{ define "Header" }}
+
+    <!DOCTYPE html>
+    <!-- Template by html.am -->
+    <html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Dashboard</title>
+        <style type="text/css">
+
+            /* Layout */
+            body {
+                min-width: 630px;
+            }
+
+            #container {
+                padding-left: 200px;
+                padding-right: 190px;
+            }
+            
+            #container .column {
+                position: relative;
+                float: left;
+            }
+            
+            #center {
+                padding: 10px 20px;
+                width: 100%;
+            }
+            
+            #left {
+                width: 180px;
+                padding: 0 10px;
+                right: 240px;
+                margin-left: -100%;
+            }
+            
+            #right {
+                width: 130px;
+                padding: 0 10px;
+                margin-right: -100%;
+            }
+            
+        
+            /* IE hack */
+            * html #left {
+                left: 150px;
+            }
+
+            /* Make the columns the same height as each other */
+            #container {
+                overflow: hidden;
+            }
+
+            #container .column {
+                padding-bottom: 1001em;
+                margin-bottom: -1000em;
+            }
+
+            /* Fix for the footer */
+            * html body {
+                overflow: hidden;
+            }
+            
+            
+            /* Aesthetics */
+            body {
+                margin: 0;
+                padding: 0;
+                font-family:Sans-serif;
+                line-height: 1.5em;
+            }
+            
+            p {
+                color: #555;
+            }
+
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            nav ul a {
+                color: darkgreen;
+                text-decoration: none;
+            }
+            #header {
+                font-size: large;
+                padding: 0.3em;
+                background: #BCCE98;
+            }
+            
+
+            #left {
+                background: #DAE9BC;
+            }
+            
+            #right {
+                background: #F7FDEB;
+            }
+
+            #center {
+                background: #fff;
+            }
+
+            #container .column {
+                padding-top: 1em;
+            }
+
+            /* list view */
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+
+
+
+            /* add */
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: black;
+                }
+
+                * {
+                box-sizing: border-box;
+                }
+
+                /* Add padding to containers */
+                .container {
+                padding: 16px;
+                background-color: white;
+                }
+
+                /* Full-width input fields */
+                input[type=text], input[type=password] {
+                width: 100%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: none;
+                background: #f1f1f1;
+                }
+
+                input[type=text]:focus, input[type=password]:focus {
+                background-color: #ddd;
+                outline: none;
+                }
+
+                /* Overwrite default styles of hr */
+                hr {
+                border: 1px solid #f1f1f1;
+                margin-bottom: 25px;
+                }
+
+                /* Set a style for the submit button */
+                .registerbtn {
+                background-color: #04AA6D;
+                color: white;
+                padding: 16px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.9;
+                }
+
+                .registerbtn:hover {
+                opacity: 1;
+                }
+
+                /* Add a blue text color to links */
+                a {
+                color: dodgerblue;
+                }
+
+                /* Set a grey background color and center the text of the "sign in" section */
+                .signin {
+                background-color: #f1f1f1;
+                text-align: center;
+                }
+            
+        </style>	
+    </head>
+
+    
+
+      
+{{ end }}

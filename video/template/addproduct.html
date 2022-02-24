@@ -1,0 +1,53 @@
+{{define "addproduct"}}
+
+  
+  
+
+{{end}}
+
+{{ template "Header" }}
+<body>
+    <header id="header">
+        <ul style="display: flex;">
+            <li style="flex: 95%;"><p>User = {{.First}}</p> </li>
+            <li style="flex: 5%;"> <a href="/logout">Logout</a> </li>
+        </ul>
+    </header>
+
+    <div id="container">
+
+        <main id="center" class="column">
+            <article>
+            
+                <h2>Product ADD</h2>
+
+                <form action="/addproduct" method="post">
+                    <div class="container">
+                      
+                      <p>Please fill in this form to create an account.</p>
+                      <hr>
+                  
+                      <label for="nsme"><b>Name</b></label>
+                      <input type="text" placeholder="Enter Name" name="name" id="name" required>
+
+                      <label for="brand"><b>Brand</b></label>
+                      <input type="text" placeholder="Enter Brand" name="brand" id="brand" required>
+
+                      <label for="price"><b>Price</b></label>
+                      <input type="text" placeholder="Enter Price" name="price" id="price" required>
+
+                      <label for="description"><b>Description</b></label>
+                      <input type="text" placeholder="Enter Description" name="description" id="description" required>
+
+                    
+                      <button type="submit" class="registerbtn">SAVE</button>
+                    </div>
+                    
+                    
+                  </form>
+                
+            
+            </article>								
+        </main>
+
+        {{ template "Sidebar" }} 

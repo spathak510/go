@@ -1,0 +1,150 @@
+cd ..
+    2  ll
+    3  pwd
+    4  cd /home/qss-amit/
+    5  cd Projects/chatbot-api/src/chatbot-api/
+    6  go run server.go 
+    7  go version
+    8  export GOROOT=/usr/local/go
+    9  export GOPATH=$HOME/Projects/chatbot-api/src
+   10  export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+   11  go version
+   12  go run server.go 
+   13  export GOPATH=$HOME/Projects/chatbot-api/src/chatbot-api
+   14  go run server.go 
+   15  export GOPATH=$HOME/Projects/chatbot-api/
+   16  go run server.go 
+   17  docker
+   18  docker --help
+   19  docker version
+   20  sudo docker version
+   21  sudo docker --version
+   22  ll
+   23  cd ../
+   24  ll
+   25  cd src
+   26  ll
+   27  cd api/
+   28  ll
+   29  sudo make setup 
+   30  sudo apt install make
+   31  sudo make setup 
+   32  ll
+   33  cd code/
+   34  ll
+   35  cat hello_server.go 
+   36  cd ../
+   37  make setup
+   38  sudo make setup
+   39  docker ps
+   40  sudo docker ps
+   41  sudo docker close
+   42  ll
+   43  cd ../
+   44  ll
+   45  cd../../
+   46  cd ../
+   47  pwd
+   48  mkdir sp
+   49  cd sp
+   50  git clone https://gitlab.com/shiftpixy/api-dev/api.git
+   51  ll
+   52  cd api
+   53  ll
+   54  make setup 
+   55  sudo make setup 
+   56  ssh-keygen -t ed25519 -C "amit.upadhyay@qsstechnosoft.com"
+   57  ll
+   58  cd code
+   59  ll
+   60  cat hello_server.go 
+   61  vi hello_server.go 
+   62  sudo make setup 
+   63  cd ../
+   64  sudo make setup 
+   65  git status
+   66  git checkout -b amit-test
+   67  git branch
+   68  git add .
+   69  git status
+   70  git commit -m "test" 
+   71  git branch
+   72  git push origin amit-test 
+   73  git pull origin kishan-test
+   74  vi code/hello_server.go
+   75  git pull
+   76  branch -a
+   77  ll
+   78  git branch -a
+   79  git checkout -b amit-test2
+   80  git branch
+   81  git status
+   82  make setup
+   83  sudo make setup
+   84  git status
+   85  git add .
+   86  git commit -m "test2" 
+   87  git branch -a
+   88  git branch
+   89  git push origin amit-test2 
+   90  sudo git push origin amit-test2 
+   91  git pull
+   92  git branch -a
+   93  git checkout kishan-test2
+   94  git checkout -b kishan-test2
+   95  git checkout  kishan-test2
+   96  git branch
+   97  make setup
+   98  sudo make setup
+   99  git checkout -b amit-db
+  100  git branch
+  101  ll
+  102  cd code
+  103  ll
+  104  cd ../
+  105  make
+  106  make docker-down
+  107  docker ps
+  108  sudo docker ps
+  109  make docker-down
+  110  sudo make docker-down
+  111  sudo docker ps
+  112  sudo make setup
+  113  git branch
+  114  sudo make docker-down
+  115  cd code/
+  116  ll
+  117  go run hello_server.go 
+  118  go get gopkg.in/mgo.v2
+  119  cd ../
+  120  ll
+  121  cd code
+  122  ll
+  123  go run hello_server.go
+  124  go
+  125  go version
+  126  go run hello_server.go
+  127  export GOPATH=$HOME/Projects/sp
+  128  cd ../
+  129  cd sp
+  130  ll
+  131  go get gopkg.in/mgo.v2
+  132  ll
+  133  src
+  134  cd src
+  135  cd api/code/
+  136  ll
+  137  go hello_server.go 
+  138  cd ../
+  139  sudo make setup
+  140  sudo make docker-down
+  141  sudo make setup
+  142  git status
+  143  docker ps
+  144  sudo make setup
+  145  docker ps
+  146  sudo make setup
+  147  docker ps
+  148  sudo docker ps
+  149  sudo make setup
+

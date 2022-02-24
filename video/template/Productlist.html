@@ -1,0 +1,92 @@
+{{ template "Header" }}
+<body>
+    <header id="header">
+        <ul style="display: flex;">
+            <li style="flex: 95%;"><p>User = {{range $k, $v := .}}
+                {{if gt $k "p1"}}
+                  Value: {{$v}}
+                {{end}}
+              {{end}}
+              </p> </li>
+            <li style="flex: 5%;"> <a href="/logout">Logout</a> </li>
+        </ul>
+    </header>
+
+    <div id="container">
+
+        <main id="center" class="column">
+            <article>
+            
+                <h2>HTML Table</h2>
+
+                <table>
+                  <tr>
+                    <th>Sr.No.</th>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                    <th>View</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Centro comercial Moctezuma</td>
+                    <td>Francisco Chang</td>
+                    <td>Mexico</td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Ernst Handel</td>
+                    <td>Roland Mendel</td>
+                    <td>Austria</td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Island Trading</td>
+                    <td>Helen Bennett</td>
+                    <td>UK</td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Laughing Bacchus Winecellars</td>
+                    <td>Yoshi Tannamuri</td>
+                    <td>Canada</td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Magazzini Alimentari Riuniti</td>
+                    <td>Giovanni Rovelli</td>
+                    <td>Italy</td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                  </tr>
+                </table>
+                
+            
+            </article>								
+        </main>
+
+        {{ template "Sidebar" }} 

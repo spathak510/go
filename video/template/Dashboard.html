@@ -1,0 +1,23 @@
+
+{{ template "Header" }}
+<body>
+    <header id="header">
+        <ul style="display: flex;">
+            <li style="flex: 95%;"><p>User = {{.First}}</p> </li>
+            <li style="flex: 5%;"> <a href="/logout">Logout</a> </li>
+        </ul>
+    </header>
+
+    <div id="container">
+
+        <main id="center" class="column">
+            <article>
+            
+                <h1>Heading</h1>
+                <hr><h3>login User...</h3><hr>
+                
+            
+            </article>								
+        </main>
+
+        {{ template "Sidebar" }}            
